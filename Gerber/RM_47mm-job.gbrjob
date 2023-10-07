@@ -1,0 +1,167 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "7.0.7"
+    },
+    "CreationDate": "2023-10-08T00:42:53+08:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "RM_47mm",
+      "GUID": "524d5f34-376d-46d2-9e6b-696361645f70",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 40.2,
+      "Y": 40.2
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 0.19,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.15,
+      "PadToTrack": 0.15,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.25
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.15,
+      "PadToTrack": 0.15,
+      "TrackToTrack": 0.2,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "RM_47mm-F_Cu\\uFF08\\u9876\\u5C42\\u94DC\\u5C42\\uFF09.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RM_47mm-In1_Cu(GND Plane).gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RM_47mm-In2_Cu(VCC Plane).gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RM_47mm-B_Cu\\uFF08\\u5E95\\u5C42\\u94DC\\u5C42\\uFF09.gbr",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RM_47mm-F_Paste\\uFF08\\u9876\\u5C42\\u710A\\u818F\\uFF09.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RM_47mm-B_Paste\\uFF08\\u5E95\\u5C42\\u710A\\u818F\\uFF09.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RM_47mm-F_Silkscreen\\uFF08\\u9876\\u5C42\\u4E1D\\u5370\\uFF09.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RM_47mm-B_Silkscreen\\uFF08\\u5E95\\u5C42\\u4E1D\\u5370\\uFF09.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "RM_47mm-F_Mask\\uFF08\\u9876\\u5C42\\u963B\\u710A\\uFF09.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "RM_47mm-B_Mask\\uFF08\\u5E95\\u5C42\\u963B\\u710A\\uFF09.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "RM_47mm-Edge_Cuts(\\u677F\\u6846).gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu\\uFF08\\u9876\\u5C42\\u94DC\\u5C42\\uFF09"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.01,
+      "Material": "FR4",
+      "Name": "F.Cu\\uFF08\\u9876\\u5C42\\u94DC\\u5C42\\uFF09/In1.Cu(GND Plane)",
+      "Notes": "Type: dielectric layer 1 (from F.Cu\\uFF08\\u9876\\u5C42\\u94DC\\u5C42\\uFF09 to In1.Cu(GND Plane))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In1.Cu(GND Plane)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.01,
+      "Material": "FR4",
+      "Name": "In1.Cu(GND Plane)/In2.Cu(VCC Plane)",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu(GND Plane) to In2.Cu(VCC Plane))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In2.Cu(VCC Plane)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.01,
+      "Material": "FR4",
+      "Name": "In2.Cu(VCC Plane)/B.Cu\\uFF08\\u5E95\\u5C42\\u94DC\\u5C42\\uFF09",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu(VCC Plane) to B.Cu\\uFF08\\u5E95\\u5C42\\u94DC\\u5C42\\uFF09)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu\\uFF08\\u5E95\\u5C42\\u94DC\\u5C42\\uFF09"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
