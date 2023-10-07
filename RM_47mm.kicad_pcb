@@ -81,7 +81,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "D:/06Program/KiCAD_Pro/RM_47mm/")
+      (outputdirectory "Gerber-2/")
     )
   )
 
