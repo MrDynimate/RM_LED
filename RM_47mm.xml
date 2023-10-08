@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>D:\06Program\KiCAD_Pro\RM_47mm\RM_47mm.kicad_sch</source>
-    <date>2023/10/8 11:59:25</date>
+    <source>C:\Users\Mr.Dan\10Project\EDA\RM_47mm\RM_47mm.kicad_sch</source>
+    <date>2023/10/8 13:54:54</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -668,22 +668,22 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>D:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>D:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="LED">
-      <uri>D:\Program Files\KiCad\7.0\share\kicad\symbols\/LED.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/LED.kicad_sym</uri>
     </library>
     <library logical="MCU_ST_STM32F1">
-      <uri>D:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_ST_STM32F1.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_ST_STM32F1.kicad_sym</uri>
     </library>
     <library logical="Regulator_Linear">
-      <uri>D:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="Switch">
-      <uri>D:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -743,7 +743,7 @@
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="SW2" pin="2" pinfunction="4" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW3" pin="2" pinfunction="4" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VBAT" pintype="power_in"/>
       <node ref="U1" pin="24" pinfunction="VDD" pintype="power_in"/>

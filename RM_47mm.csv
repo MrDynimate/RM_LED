@@ -1,14 +1,14 @@
-Designator,Comment,Footprint
-"C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C12, C13",100nf,Capacitor_SMD:C_0603_1608Metric
-C11,4.7uf,Capacitor_SMD:C_0603_1608Metric
-"D1, D2, D3, D4, D5, D6, D7, D8",WS2812B,LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
-J1,USB_C_Receptacle_USB2.0,Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV
-J2,SWD,Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal
-"R1, R2, R3, R4, R5",10kΩ,Resistor_SMD:R_0603_1608Metric
-R6,4.7kΩ,Resistor_SMD:R_0603_1608Metric
-R7,1kΩ,Resistor_SMD:R_0603_1608Metric
-SW1,RESET,Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816
-SW2,WKUP,Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816
-SW3,SW_Push_Dual,Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS
-U1,STM32F103C8Tx,Package_QFP:LQFP-48_7x7mm_P0.5mm
-U2,AMS1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2
+Comment,Description,Designator,Footprint,,,Quantity
+100nf,Unpolarized capacitor,"C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C12, C13",Capacitor_SMD:C_0603_1608Metric,,,12
+4.7uf,Unpolarized capacitor,C11,Capacitor_SMD:C_0603_1608Metric,,,1
+WS2812B,RGB LED with integrated controller,"D1, D2, D3, D4, D5, D6, D7, D8",LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,,,8
+USB_C_Receptacle_USB2.0,USB 2.0-only Type-C Receptacle connector,J1,Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV,,,1
+SWD,"Generic connector, single row, 01x04, script generated",J2,Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal,,,1
+10k,Resistor,"R1, R2, R3, R4, R5",Resistor_SMD:R_0603_1608Metric,,,5
+4.7k,Resistor,R6,Resistor_SMD:R_0603_1608Metric,,,1
+1k,"Resistor, US symbol",R7,Resistor_SMD:R_0603_1608Metric,,,1
+RESET,"Push button switch, generic, symbol, four pins",SW1,Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816,,,1
+WKUP,"Push button switch, generic, symbol, four pins",SW2,Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816,,,1
+SW_Push_Dual,"Push button switch, generic, symbol, four pins",SW3,Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS,,,1
+STM32F103C8Tx,"STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48",U1,Package_QFP:LQFP-48_7x7mm_P0.5mm,,,1
+AMS1117-3.3,"1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",U2,Package_TO_SOT_SMD:SOT-223-3_TabPin2,,,1
