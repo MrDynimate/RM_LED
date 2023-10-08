@@ -1,0 +1,14 @@
+Designator,Comment,Footprint
+"C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C12, C13",100nf,Capacitor_SMD:C_0603_1608Metric
+C11,4.7uf,Capacitor_SMD:C_0603_1608Metric
+"D1, D2, D3, D4, D5, D6, D7, D8",WS2812B,LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+J1,USB_C_Receptacle_USB2.0,Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV
+J2,SWD,Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal
+"R1, R2, R3, R4, R5",10kΩ,Resistor_SMD:R_0603_1608Metric
+R6,4.7kΩ,Resistor_SMD:R_0603_1608Metric
+R7,1kΩ,Resistor_SMD:R_0603_1608Metric
+SW1,RESET,Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816
+SW2,WKUP,Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816
+SW3,SW_Push_Dual,Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS
+U1,STM32F103C8Tx,Package_QFP:LQFP-48_7x7mm_P0.5mm
+U2,AMS1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2
